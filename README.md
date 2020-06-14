@@ -6,6 +6,10 @@
 
 Ја добив групата на код 6
 
+###  Control Flow Diagram
+
+<img src="src/test/resources/ControlFlowDiagram.png">
+
 ###  Control Flow Graph
 
 <img src="src/test/resources/ControlFlowGraph.png">
