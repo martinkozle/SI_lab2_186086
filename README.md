@@ -8,11 +8,11 @@
 
 ###  Control Flow Diagram
 
-<img src="src/test/resources/ControlFlowDiagram.png">
+![ControlFlowDiagram](src/test/resources/ControlFlowDiagram.png)
 
 ###  Control Flow Graph
 
-<img src="src/test/resources/ControlFlowGraph.png">
+![ControlFlowGraph](src/test/resources/ControlFlowGraph.png)
 
 ### Цикломатска комплексност
 
@@ -21,13 +21,17 @@
 
 ### Тест случаи според критериумот Every branch 
 
-<img src="src/test/resources/Branch.png">
+![EveryBranch](src/test/resources/EveryBranch.png)
 
 ### Тест случаи според критериумот Every path
 
-.... 
+![EveryPath](src/test/resources/EveryPath.png)
 
 ### Објаснување на напишаните unit tests
 
-...
-...
+За EveryBranch Unit тестовите ги поминуваат сине можни branch-ови помеѓу сите јазли, 
+додека EveryPath ги поминува сите можни патеки од почеток до крај.
+За оваа програма, во мој случај, EveryBranch и EveryPath тест случаевите
+ги поминуваат истите патишта, т.е. можат истите да се искористат за двете.
+За 2 од тестовите враќа резултат, додека за 4 фрла исклучок кој што треба да се тестира,
+т.е. да се assert-не message-от на исклучокот.
